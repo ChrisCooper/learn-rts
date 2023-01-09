@@ -11,3 +11,8 @@ cargo run -p rts
 ```
 cargo test
 ```
+
+
+## Notes
+
+For Rust--Python interop, candidates include Apache Arrow, the PyO3 crate, and the rust-numpy crate to fill numpy arrays from Rust
