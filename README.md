@@ -5,6 +5,8 @@ An RTS where you actually train your units' neural networks
 ## Running the program
 ```
 cargo run -p rts
+# or
+$env:RUST_BACKTRACE=1; cargo run; $env:RUST_BACKTRACE=''
 ```
 
 ## Running tests

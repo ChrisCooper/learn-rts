@@ -2,9 +2,7 @@ use bevy::prelude::*;
 use gmap;
 
 fn main() {
-    let num = 3;
-    println!("Hello, world! {num} plus 5 is {}!", gmap::add(num, 5));
-
+    println!("Launching app");
 
     App::new()
         .add_plugins(DefaultPlugins.set(ImagePlugin::default_nearest())) // Prevents blurry sprites
